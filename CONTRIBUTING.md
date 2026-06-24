@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for helping improve the WorkerSignal Codex skill.
+Thank you for helping improve the WorkerSignal AI connector skill.
 
 ## Rules
 
@@ -16,6 +16,7 @@ Good pull requests usually improve:
 - Redaction guidance.
 - Safer signal examples.
 - Connector consent language.
+- Claude, Cursor, Codex, and Agent Skills compatibility notes.
 - Documentation clarity.
 
 Do not add integrations that depend on private or unofficial APIs.
