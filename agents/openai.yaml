@@ -1,0 +1,4 @@
+interface:
+  display_name: "WorkerSignal Codex Connector"
+  short_description: "Capture safe AI work signals from Codex"
+  default_prompt: "Use $workersignal-codex-connector to capture a safe private work signal from this AI work session."
