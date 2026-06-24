@@ -22,7 +22,7 @@ Blocked content:
 Required defaults:
 
 - `visibility` must start as `private_pending_review`.
-- Publication must happen only after dashboard approval.
+- Publication must happen only after explicit approval in WorkerSignal.
 - Connector updates that change behavior, permissions, or data sent must be visible to the user.
 
 Safe summary pattern:

@@ -16,7 +16,7 @@ Create safe work signals, not transcripts. Never send private prompts, private c
 3. Convert the work into a compact signal with title, summary, source, AI tools, technical tools, categories, and `private_pending_review` visibility.
 4. Show the preview to the user.
 5. Send only when the user explicitly approves.
-6. Leave publication to the WorkerSignal web dashboard.
+6. Leave publication to the WorkerSignal web approval flow.
 
 ## Signal Shape
 
@@ -38,7 +38,7 @@ Create safe work signals, not transcripts. Never send private prompts, private c
 - Use `source: "codex"` for Codex work and include other AI tools only if the user confirms them.
 - Keep summaries outcome-focused: problem type, tools, technical area, complexity, and result.
 - Generalize client/project references, for example "a private CRM migration" instead of a real client or internal project name.
-- Do not claim verification. Use private pending review unless the dashboard later marks evidence public.
+- Do not claim verification. Use private pending review unless the WorkerSignal web flow later marks evidence public.
 
 ## References
 
