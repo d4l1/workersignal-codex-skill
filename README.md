@@ -27,6 +27,13 @@ mkdir -p ~/.cursor/skills
 git clone https://github.com/d4l1/workersignal-codex-skill.git ~/.cursor/skills/workersignal-ai-connector
 ```
 
+Install in another Agent Skills-compatible tool:
+
+```bash
+mkdir -p ~/.agents/skills
+git clone https://github.com/d4l1/workersignal-codex-skill.git ~/.agents/skills/workersignal-ai-connector
+```
+
 Then invoke it from your AI tool:
 
 ```text

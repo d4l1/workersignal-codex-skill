@@ -46,7 +46,7 @@ npm run workersignal -- sync --watch --interval 300
 Run commands from the WorkerSignal.ai repo root.
 
 ```bash
-npm run workersignal -- login --api-url https://workersignal.ai --token "$WORKERSIGNAL_TOKEN"
+npm run workersignal -- login --api-url https://workersignal-ai.vercel.app --token "$WORKERSIGNAL_TOKEN"
 npm run workersignal -- capture "Built and debugged an approved AI workflow summary."
 npm run workersignal -- preview
 npm run workersignal -- send --approve
